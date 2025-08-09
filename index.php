@@ -7,6 +7,8 @@ $pageTitle = "Home - Grab & Go";
 $pageDesc = "Your one-stop supermarket for all daily needs";
 ?>
 
+require_once __DIR__ . '/header.php';
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -253,4 +255,5 @@ $pageDesc = "Your one-stop supermarket for all daily needs";
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
